@@ -154,7 +154,8 @@
  :feature/enable-journals? false
  :default-home {:page "Contents"}
  :ui/show-brackets? true
- :journal/page-title-format "E, yyyy/MM/dd"
+ :journal/page-title-format "yyyy_MM_dd"
  :journal/file-name-format "yyyy-MM-dd"
  :favorites ["react hot module reloading" "jsplay"]
- :graph/settings {:builtin-pages? false}}
+ :graph/settings {:builtin-pages? false}
+ :preferred-format :org}
